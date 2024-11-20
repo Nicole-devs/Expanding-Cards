@@ -7,3 +7,8 @@ cards.forEach(card => {
     })
 })
 
+function removeActiveClass() {
+    cards.forEach(card => {
+        card.classList.remove('active')
+    })
+}
