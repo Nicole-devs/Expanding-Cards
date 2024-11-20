@@ -49,3 +49,11 @@ body{
     opacity: 1;
 }
 
+@media(max-width:480px){
+    .card-container{
+        width: 100vw;
+    }
+    .card:nth-of-type(3), .card:nth-of-type(4), .card:nth-of-type(5), .card:nth-of-type(6){
+        display: none
+    }
+}
