@@ -20,3 +20,17 @@ body{
     width: 90vw;
 }
 
+.card{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    flex: 0.5;
+    position: relative;
+    transition: flex 0.5 ease-in;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
