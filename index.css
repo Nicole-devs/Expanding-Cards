@@ -34,3 +34,10 @@ body{
     margin: 10px;
 }
 
+.card h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+
