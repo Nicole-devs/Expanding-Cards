@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@100;400;900&display=swap');
 
 
 *{
@@ -6,6 +6,7 @@
 }
 
 body{
+    background-color: #36454F;
     font-family: 'Muli', sans-serif;
     margin: 0;
     display: flex;
@@ -17,18 +18,18 @@ body{
 
 .card-container{
     display: flex;
-    width: 90vw;
+    width: 95vw;
 }
 
 .card{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     border-radius: 50px;
     flex: 0.5;
     position: relative;
-    transition: flex 0.5 ease-in;
+    transition: flex 0.5s ease-in;
     color: white;
     cursor: pointer;
     margin: 10px;
@@ -47,6 +48,7 @@ body{
 
 .card.active h3{
     opacity: 1;
+    transition: opacity 0.4s ease-in 0.4s
 }
 
 @media(max-width:480px){
