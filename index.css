@@ -15,3 +15,8 @@ body{
     overflow: hidden;
 }
 
+.card-container{
+    display: flex;
+    width: 90vw;
+}
+
