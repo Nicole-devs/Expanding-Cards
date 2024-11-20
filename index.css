@@ -56,4 +56,5 @@ body{
     .card:nth-of-type(3), .card:nth-of-type(4), .card:nth-of-type(5), .card:nth-of-type(6){
         display: none
     }
+/* Media Queries: Ensuring the expanding cards work well on different screen sizes */
 }
